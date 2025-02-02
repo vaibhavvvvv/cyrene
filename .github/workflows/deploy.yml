@@ -2,7 +2,7 @@ name: "Docker Image Publish ghcr.io"
 
 on:
   push:
-    branches: ["develop"]
+    branches: ["patch-1"]
 
 env:
   REGISTRY: ghcr.io
